@@ -19,6 +19,9 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+.nav-wrapper{
+    padding: 0 5%;
+}
 
 /*
  * Remove text-shadow in selection highlight:
