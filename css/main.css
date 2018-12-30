@@ -11,6 +11,7 @@
    ========================================================================== */
 *{
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -22,7 +23,20 @@ html {
 .nav-wrapper{
     padding: 0 5%;
 }
-
+.header-wrapper{
+    background-image: url('../img/muscat_center.jpg');
+    background-size: cover;
+}
+#about-landing h4{
+    margin-left: 10%;
+}
+#about-landing p{
+    padding: 0 10%;
+}
+#about-landing a{
+    margin-left: 10%;
+    margin-top: 20px;
+}
 
 /*
  * Remove text-shadow in selection highlight:
