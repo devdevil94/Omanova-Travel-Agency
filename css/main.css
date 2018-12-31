@@ -40,7 +40,15 @@ html {
 .card-reveal{
     background-color: rgba(55,12,41, 0.7) !important;
 }
-
+#packages-landing p{
+    padding: 0 25%;
+}
+#packages-landing .row .col .row{
+    margin-bottom: 0;
+}
+#packages-landing .row .col .row .col .card{
+    /* margin-top: 0; */
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
