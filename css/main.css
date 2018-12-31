@@ -37,6 +37,9 @@ html {
     margin-left: 10%;
     margin-top: 20px;
 }
+.card-reveal{
+    background-color: rgba(55,12,41, 0.7) !important;
+}
 
 /*
  * Remove text-shadow in selection highlight:
