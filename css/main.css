@@ -28,13 +28,13 @@ html {
     background-size: cover;
 }
 #about-landing h4{
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 #about-landing p{
-    padding: 0 10%;
+    /* padding: 0 10%; */
 }
 #about-landing a{
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-top: 20px;
 }
 .card-reveal{
@@ -42,12 +42,21 @@ html {
 }
 #packages-landing p{
     padding: 0 25%;
+    margin-bottom: 50px;
 }
 #packages-landing .row .col .row{
     margin-bottom: 0;
 }
 #packages-landing .row .col .row .col .card{
     /* margin-top: 0; */
+}
+.package-card{
+    position: relative;
+}
+.card-image .badge{
+    position: absolute;
+    top: 0;
+    left: -14px;
 }
 /*
  * Remove text-shadow in selection highlight:
