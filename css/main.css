@@ -32,8 +32,11 @@ html {
 }
 #about-landing p{
     padding: 0 25%;
+    margin-bottom: 10px;
 }
-
+/* #testimonials-landing{
+    padding: 0px 5%;
+} */
 .card-reveal{
     background-color: rgba(55,12,41, 0.7) !important;
 }
