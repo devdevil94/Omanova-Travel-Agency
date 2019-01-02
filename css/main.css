@@ -26,6 +26,8 @@ html {
 .header-wrapper{
     background-image: url('../img/muscat_center.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 #about-landing {
     margin-bottom: 50px;
@@ -33,6 +35,9 @@ html {
 #about-landing p{
     padding: 0 25%;
     margin-bottom: 10px;
+}
+.carousel{
+    height: 500px;
 }
 /* #testimonials-landing{
     padding: 0px 5%;
@@ -58,6 +63,39 @@ html {
     top: 0;
     left: -14px;
 }
+.testimonial-image{
+    margin-top: 20px;
+}
+.testimonial-image img{
+    border-radius: 50%;
+    border: 4px solid #000;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+
+}
+#testimonials-landing .row .col .card{
+    overflow: hidden;
+}
+#testimonials-landing .row .col .card .card-content{
+    position: relative;
+    z-index: 2;
+}
+.card .overlay{
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(212, 206, 206);
+    z-index: 1;
+    transition: 0.5s;
+}
+.card:hover .overlay{
+    top: 0;
+}
+
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
