@@ -29,6 +29,10 @@ html {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+#nav-mobile li a{
+    color: #fff;
+}
 #about-landing {
     margin-bottom: 50px;
 }
