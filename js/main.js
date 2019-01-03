@@ -8,6 +8,9 @@ $(function(){
         fullWidth: true,
         indicators: true
     });
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
 });
 
 
