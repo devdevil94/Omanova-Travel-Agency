@@ -23,11 +23,8 @@ html {
 .nav-wrapper{
     padding: 0 5%;
 }
-.header-wrapper{
-    background-image: url('../img/muscat_center.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+.parallax-container{
+    height: 80vh;
 }
 
 #nav-mobile li a{
