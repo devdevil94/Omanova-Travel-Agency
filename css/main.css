@@ -24,11 +24,14 @@ html {
     padding: 0 5%;
 }
 .parallax-container{
-    height: 80vh;
+    height: 450px;
 }
 
 #nav-mobile li a{
     color: #fff;
+}
+#hero{
+    margin: 0 auto;
 }
 #about-landing {
     margin-bottom: 50px;
@@ -46,6 +49,12 @@ html {
 .card-reveal{
     background-color: rgba(55,12,41, 0.7) !important;
 }
+#packages-landing .row .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
 #packages-landing p{
     padding: 0 25%;
     margin-bottom: 50px;
@@ -53,9 +62,7 @@ html {
 #packages-landing .row .col .row{
     margin-bottom: 0;
 }
-#packages-landing .row .col .row .col .card{
-    /* margin-top: 0; */
-}
+
 .package-card{
     position: relative;
 }
