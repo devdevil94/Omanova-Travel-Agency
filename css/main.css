@@ -27,16 +27,13 @@ html {
     background-image: url('../img/muscat_center.jpg');
     background-size: cover;
 }
-#about-landing h4{
-    /* margin-left: 10%; */
+#about-landing {
+    margin-bottom: 50px;
 }
 #about-landing p{
-    /* padding: 0 10%; */
+    padding: 0 25%;
 }
-#about-landing a{
-    /* margin-left: 10%; */
-    margin-top: 20px;
-}
+
 .card-reveal{
     background-color: rgba(55,12,41, 0.7) !important;
 }
