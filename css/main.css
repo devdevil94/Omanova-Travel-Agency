@@ -34,20 +34,28 @@ html {
     margin: 0 auto;
 }
 #about-landing {
+    padding-bottom: 50px;
+}
+#about-landing p,
+#packages-landing p,
+#attractions-landing p{
+    padding: 0 25%;
     margin-bottom: 50px;
 }
-#about-landing p{
-    padding: 0 25%;
-    margin-bottom: 10px;
+#about-landing h4,
+#attractions-landing h4{
+    padding-top: 50px;
+    margin: 0 0 20px 0;
 }
-.carousel{
-    height: 500px;
+.attr-card .card-image p{
+    margin: 0 !important;
+    padding: 0 0 10px 10px !important;
 }
 /* #testimonials-landing{
     padding: 0px 5%;
 } */
 .card-reveal{
-    background-color: rgba(55,12,41, 0.7) !important;
+    /* background-color: rgba(55,12,41, 0.7) !important; */
 }
 #packages-landing .row .col{
     display: flex;
@@ -55,10 +63,7 @@ html {
     justify-content: stretch;
 }
 
-#packages-landing p{
-    padding: 0 25%;
-    margin-bottom: 50px;
-}
+
 #packages-landing .row .col .row{
     margin-bottom: 0;
 }
@@ -109,17 +114,9 @@ html {
 .input-field label{
     font-size: 16px;
 }
-
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+.social-media-icons{
+    margin-top: 10px;
+}
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -239,14 +236,16 @@ textarea {
    
 @media only screen and (max-width: 992px) {
     #packages-landing p,
-    #about-landing p{
+    #about-landing p,
+    #attractions-landing p{
         padding: 0 10%;
     }
 }
    
 @media only screen and (max-width: 600px) {
     #packages-landing p,
-    #about-landing p{
+    #about-landing p,
+    #attractions-landing p{
         padding: 0 10%;
     }
 }
