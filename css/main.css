@@ -33,8 +33,13 @@ html {
 #hero{
     margin: 0 auto;
 }
-#about-landing {
-    padding-bottom: 50px;
+#about-landing,
+#packages-landing,
+#attractions-landing{
+    padding: 70px 0;
+}
+#attractions-landing .row{
+    margin-bottom: 50px;
 }
 #about-landing p,
 #packages-landing p,
@@ -43,19 +48,15 @@ html {
     margin-bottom: 50px;
 }
 #about-landing h4,
+#packages-landing h4,
 #attractions-landing h4{
-    padding-top: 50px;
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 .attr-card .card-image p{
     margin: 0 !important;
     padding: 6px 0 6px 10px !important;
 }
-
-#attractions-landing{
-    margin-bottom: 70px;
-}
-
 
 #packages-landing .row .col .row{
     margin-bottom: 0;
@@ -70,7 +71,10 @@ html {
     left: -14px;
 }
 .package-card .card-image .card-title{
+    background-color: rgba(0,0,0, 0.5);
     padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
     font-size: 16px;
     font-weight: bold;
 }
