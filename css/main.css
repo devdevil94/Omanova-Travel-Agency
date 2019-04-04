@@ -35,7 +35,8 @@ html {
 }
 #about-landing,
 #packages-landing,
-#attractions-landing{
+#attractions-landing,
+#testimonials-landing{
     padding: 70px 0;
 }
 #attractions-landing .row{
@@ -49,7 +50,8 @@ html {
 }
 #about-landing h4,
 #packages-landing h4,
-#attractions-landing h4{
+#attractions-landing h4,
+#testimonials-landing h4{
     margin-bottom: 20px;
     margin-top: 0;
 }
@@ -83,7 +85,7 @@ html {
 }
 .testimonial-image img{
     border-radius: 50%;
-    border: 4px solid #000;
+    border: 4px solid #fff;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
 
 }
@@ -101,7 +103,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(212, 206, 206);
+    background: #26c6da;
     z-index: 1;
     transition: 0.5s;
 }
@@ -131,8 +133,6 @@ html {
 .attr-overlay a{
     margin: 30% 25%;
 }
-
-
 .author{
     margin-top: 10px !important;
 }
@@ -141,6 +141,14 @@ html {
 }
 .input-field label{
     font-size: 16px;
+    color: #fff8e1;
+}
+.input-field input[type=text]:focus + label{
+    color: #fff8e1;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #fff8e1;
+    box-shadow: 0 1px 0 0 #fff8e1;
 }
 .social-media-icons{
     margin-top: 10px;
