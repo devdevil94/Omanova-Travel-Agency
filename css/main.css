@@ -156,6 +156,9 @@ html {
 .modal-content p{
     margin-top: 20px;
 }
+#credits{
+    padding-left: 20px;
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
