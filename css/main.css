@@ -69,6 +69,11 @@ html {
     top: 0;
     left: -14px;
 }
+.package-card .card-image .card-title{
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
 .testimonial-image{
     margin-top: 20px;
 }
