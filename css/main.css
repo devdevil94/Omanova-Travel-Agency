@@ -153,7 +153,9 @@ html {
 .social-media-icons{
     margin-top: 10px;
 }
-
+.modal-content p{
+    margin-top: 20px;
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
