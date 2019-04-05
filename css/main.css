@@ -55,6 +55,10 @@ html {
     margin-bottom: 20px;
     margin-top: 0;
 }
+
+#packages-landing .row{
+    margin-bottom: 50px;
+}
 .attr-card .card-image p{
     margin: 0 !important;
     padding: 6px 0 6px 10px !important;
@@ -132,6 +136,7 @@ html {
 }
 .attr-overlay a{
     margin: 30% 25%;
+    border-radius: 7px;
 }
 .author{
     margin-top: 10px !important;
