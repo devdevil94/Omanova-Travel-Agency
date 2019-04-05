@@ -165,7 +165,9 @@ html {
     padding-left: 20px;
 }
 #packages,
-#attractions{
+#attractions,
+#about,
+#contact{
     margin-bottom: 100px;
 }
 .package-content a,
