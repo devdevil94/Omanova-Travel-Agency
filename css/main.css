@@ -164,21 +164,35 @@ html {
 #credits{
     padding-left: 20px;
 }
-#packages{
+#packages,
+#attractions{
     margin-bottom: 100px;
 }
-.package-content a{
+.package-content a,
+.attraction-content a{
     border-radius: 7px;
+    transition: background-color 0.6s;
 }
-.package-image img{
-    cursor: pointer;
-}
-.package-content h5{
-    cursor: pointer;
 
+.attraction-content p a:hover{
+    background-color: #26c6da !important;
 }
+.package-content p a:hover{
+    background-color: #ec407a !important;
+}
+.package-image img,
+.attraction-image img,
+.package-content h5,
+.attraction-content h5{
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
 .package-content h5:hover{
     color: #ec407a;
+}
+.attraction-content h5:hover{
+    color: #26c6da;
 }
 ::-moz-selection {
     background: #b3d4fc;
