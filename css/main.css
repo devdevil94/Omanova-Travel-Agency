@@ -164,6 +164,22 @@ html {
 #credits{
     padding-left: 20px;
 }
+#packages{
+    margin-bottom: 100px;
+}
+.package-content a{
+    border-radius: 7px;
+}
+.package-image img{
+    cursor: pointer;
+}
+.package-content h5{
+    cursor: pointer;
+
+}
+.package-content h5:hover{
+    color: #ec407a;
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
