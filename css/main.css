@@ -194,6 +194,17 @@ html {
 .attraction-content h5:hover{
     color: #26c6da;
 }
+
+#images .row,
+#images .row .col{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
